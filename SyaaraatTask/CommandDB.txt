@@ -1,0 +1,3 @@
+﻿dotnet ef --startup-project ../syaaraattask/SyaaraatTask.WEB.csproj migrations add InitialMigration --context AspNetCoreTasksDbContext -o 'Data\Migrations'
+
+dotnet ef --startup-project ../syaaraattask/SyaaraatTask.WEB.csproj database update --context AspNetCoreTasksDbContext
